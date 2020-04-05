@@ -2,10 +2,15 @@
   position: fixed;
   top: 0;
   right: 0;
+  padding: 20px;
 }
 #logo {
   width: 60vw;
   /* border: 1px solid red; */
+}
+
+#header-img {
+  width: 40vw;
 }
 
 #header-image {
@@ -20,11 +25,42 @@
 }
 
 .nav-link {
-  padding: 25px;
+  padding: 50% 25px;
+  text-align: center;
+  align-items: baseline;
 }
 
-@media only screen and (max-width: 700px) {
+@media (max-width: 700px) {
   .nav-link {
     display: block;
+    padding: 30px;
   }
+}
+
+#form {
+  margin: 40px auto;
+}
+
+#email {
+  padding: 15px;
+  display: block;
+  margin: 0 auto;
+}
+
+#submit {
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+#video {
+  padding: 15px;
+  display: block;
+  margin: 0 auto;
+}
+
+.feature {
+  text-align: center;
+  margin: 10px;
+  padding: 25px;
 }
