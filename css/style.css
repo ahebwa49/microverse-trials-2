@@ -4,9 +4,18 @@
   right: 0;
   padding: 20px;
 }
+
+#header {
+  position: fixed;
+  top: 0;
+}
+
 #logo {
   width: 60vw;
   /* border: 1px solid red; */
+}
+body {
+  background-color: #eee;
 }
 
 #header-img {
@@ -38,7 +47,11 @@
 }
 
 #form {
-  margin: 40px auto;
+  margin: 10% auto;
+}
+
+#form h1 {
+  text-align: center;
 }
 
 #email {
@@ -65,11 +78,11 @@
   padding: 25px;
 }
 
-#pricing {
+.pricing {
   display: flex;
 }
 
-#pricing-product {
+.pricing-product {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -80,11 +93,11 @@
   border-radius: 3px;
 }
 
-#pricing-product li {
+.pricing-product li {
   list-style: none;
 }
 
-#pricing-button {
+.button {
   padding: 0 20px;
   height: 40px;
   font-size: 1em;
@@ -100,7 +113,7 @@
   font-weight: 400;
 }
 
-#price-product-heading {
+.price-product-heading {
   background-color: #ddd;
   color: black;
   padding: 15px 0;
@@ -109,6 +122,10 @@
   font-weight: 700;
 }
 
-#pricing-product li {
+.pricing-product li {
   padding: 5px 0;
+}
+
+#how_it_works {
+  margin: 25px;
 }
