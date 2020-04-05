@@ -1,18 +1,19 @@
 #nav-bar {
-  position: fixed;
-  top: 0;
-  right: 0;
   padding: 20px;
+  float: right;
 }
 
 #header {
   position: fixed;
   top: 0;
+  width: 100%;
+  background-color: #eee;
 }
 
 #logo {
   width: 60vw;
   /* border: 1px solid red; */
+  display: inline;
 }
 body {
   background-color: #eee;
